@@ -435,7 +435,7 @@ const fastify = require('fastify')({
       res.code(400)
       return res.send("Provided url is not valid")
     } else {
-      res.send(err)
+      res.send(error)
     }
   }
 })
